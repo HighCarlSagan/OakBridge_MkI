@@ -1,0 +1,95 @@
+╔══════════════════════════════════════════════════════════════════╗
+║              USB 2.0 DIFFERENTIAL PAIR ROUTING                   ║
+║                    QUICK REFERENCE CARD                          ║
+╚══════════════════════════════════════════════════════════════════╝
+
+TRACE SPECIFICATIONS:
+┌─────────────────────────────────────────────────────────────────┐
+│ Trace Width (W):         0.35mm (14 mil)                        │
+│ Edge-to-Edge Gap (S):    0.15mm (6 mil)                         │
+│ Center-to-Center:        0.50mm (20 mil)                        │
+│ Target Impedance:        90Ω differential (±10%)                │
+│ Board Stackup:           2-layer, 1.6mm FR-4                    │
+└─────────────────────────────────────────────────────────────────┘
+
+ROUTING RULES:
+┌─────────────────────────────────────────────────────────────────┐
+│ ✓ Route D+ and D- as matched pair                              │
+│ ✓ Keep length difference < 2mm                                 │
+│ ✓ Use 45° corners or curved traces (no 90° angles)             │
+│ ✓ Keep total trace length < 75mm                               │
+│ ✓ Avoid vias if possible (use single layer)                    │
+│ ✓ If vias needed: both D+ and D- together, symmetrical         │
+│ ✓ Continuous ground plane underneath                           │
+│ ✓ No stubs or branches                                         │
+└─────────────────────────────────────────────────────────────────┘
+
+KEEPOUT ZONES (maintain 3x trace width clearance from):
+┌─────────────────────────────────────────────────────────────────┐
+│ × Power traces (especially switching regulators)               │
+│ × High-frequency signals (SPI clock, PWM)                      │
+│ × LED switching signals                                         │
+│ × RF antenna region                                            │
+└─────────────────────────────────────────────────────────────────┘
+
+PLACEMENT REQUIREMENTS:
+┌─────────────────────────────────────────────────────────────────┐
+│ USB Connector → USBLC6-2SC6 TVS → ESP32 GPIO19/20              │
+│      ↓              ↓                    ↓                      │
+│   <10mm          <5mm                                           │
+│                                                                 │
+│ CC1/CC2 Resistors (R6, R7 = 5.1kΩ):                           │
+│   Place immediately adjacent to USB connector                  │
+└─────────────────────────────────────────────────────────────────┘
+
+GROUNDING STRATEGY:
+┌─────────────────────────────────────────────────────────────────┐
+│ • USB Shield pins → 4x 0.5mm vias to ground plane              │
+│ • Ground stitching vias around connector (every 2-3mm)         │
+│ • TVS diode ground → 0.4mm via to ground plane                 │
+│ • Solid ground plane on bottom layer under traces              │
+│ • Ground guard traces on both sides of D+/D- (optional)        │
+└─────────────────────────────────────────────────────────────────┘
+
+NET ASSIGNMENT:
+┌─────────────────────────────────────────────────────────────────┐
+│ Net Class:    "usb_diff"                                        │
+│ Nets:         USB_D+, USB_D-                                   │
+│ Differential: Yes                                               │
+└─────────────────────────────────────────────────────────────────┘
+
+KICAD STEPS:
+┌─────────────────────────────────────────────────────────────────┐
+│ 1. Create net class "usb_diff" with above parameters           │
+│ 2. Assign USB_D+ and USB_D- nets to "usb_diff" class          │
+│ 3. Route → Add Track → Select Differential Pair mode           │
+│ 4. Set Custom Rules in PCB Editor:                             │
+│    (constraint diff_pair_gap (min 0.15mm) (max 0.15mm))       │
+│    (constraint diff_pair_uncoupled (max 0.2mm))               │
+│ 5. Tools → Length Tuning → Match differential pair            │
+└─────────────────────────────────────────────────────────────────┘
+
+VERIFICATION CHECKLIST:
+┌─────────────────────────────────────────────────────────────────┐
+│ □ Traces are 0.35mm width                                      │
+│ □ Gap is 0.15mm edge-to-edge                                   │
+│ □ Length difference < 2mm                                      │
+│ □ No 90° angles present                                        │
+│ □ Solid ground underneath                                      │
+│ □ TVS diode in signal path                                     │
+│ □ 5.1kΩ resistors on CC1/CC2                                   │
+│ □ No clearance violations                                      │
+└─────────────────────────────────────────────────────────────────┘
+
+IMPEDANCE VERIFICATION:
+Use KiCad PCB Calculator (Tools → Calculator → PCB Calculator):
+  - Microstrip type
+  - Er = 4.5 (FR-4)
+  - H = 1.6mm (board thickness)
+  - W = 0.35mm (trace width)
+  - T = 0.035mm (1oz copper)
+  Expected result: Zdiff ≈ 88-92Ω ✓
+
+╔══════════════════════════════════════════════════════════════════╗
+║  This should achieve USB 2.0 Full Speed (12 Mbps) compliance   ║
+╚══════════════════════════════════════════════════════════════════╝

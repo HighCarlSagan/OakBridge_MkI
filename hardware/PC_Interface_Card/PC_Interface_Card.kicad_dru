@@ -1,0 +1,16 @@
+(version 1)
+# USB Differential Pair Rules
+(rule "USB_diff_pair_gap"
+   (condition "A.inDiffPair('D*')")
+   (constraint diff_pair_gap (min 0.15mm) (max 0.15mm))
+)
+
+(rule "USB_diff_pair_uncoupled"
+   (condition "A.inDiffPair('D*')")
+   (constraint diff_pair_uncoupled (max 0.2mm))
+)
+
+(rule "USB_length_matching"
+   (condition "A.inDiffPair('D*')")
+   (constraint length (max 2mm))
+)
