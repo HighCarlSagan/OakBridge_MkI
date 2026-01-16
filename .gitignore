@@ -1,0 +1,22 @@
+# KiCad
+*.kicad_prl
+*-backups/
+fp-info-cache
+
+# ESP-IDF
+firmware/build/
+firmware/sdkconfig.old
+firmware/sdkconfig
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# CAD
+*.FCStd1
+enclosure/export/*.gcode
+
+# IDE
+.vscode/
+.idea/

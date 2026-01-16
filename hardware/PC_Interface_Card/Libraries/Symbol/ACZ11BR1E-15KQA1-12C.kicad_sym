@@ -1,0 +1,138 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "ACZ11BR1E-15KQA1-12C" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "MT" (id 0) (at -7.62 10.795 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "ACZ11BR1E-15KQA1-12C" (id 1) (at -7.62 -17.78 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "ACZ11BR1E-15KQA1-12C:XDCR_ACZ11BR1E-15KQA1-12C" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "1.04" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Same Sky" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "13.75mm" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "ACZ11BR1E-15KQA1-12C_0_0"
+      (polyline
+        (pts (xy 7.62 2.54) (xy 4.191 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 2.54) (xy -3.81 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 7.62 7.62) (xy 4.191 7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 7.62) (xy -3.81 7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.81 2.54) (xy -3.81 7.62)) (stroke (width 0.254))
+      )
+      (circle (center -2.54 -5.08) (radius 0.254)
+        (stroke (width 0.508)) (fill (type none))
+      )
+      (circle (center 2.54 -5.08) (radius 0.254)
+        (stroke (width 0.508)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -3.81 -5.715) (xy 0.0 -5.715)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 -5.715) (xy 3.81 -5.715)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 -5.715) (xy 0.0 -1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -7.62 5.08) (xy -3.81 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -7.62 -5.08) (xy -2.54 -5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 -5.08) (xy 7.62 -5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 4.191 2.54) (xy -1.143 0.4064)) (stroke (width 0.254))
+      )
+      (circle (center -0.889 2.54) (radius 0.3302)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 4.191 7.62) (xy -1.143 5.4864)) (stroke (width 0.254))
+      )
+      (circle (center -0.889 7.62) (radius 0.3302)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (rectangle (start -7.62 -15.24) (end 7.62 10.16)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at -12.7 5.08 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "C"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 2.54 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 7.62 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -5.08 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "D"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -5.08 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "E"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -10.16 0) (length 5.08)
+        (name "SHIELD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "SH1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -12.7 0) (length 5.08)
+        (name "SHIELD__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "SH2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

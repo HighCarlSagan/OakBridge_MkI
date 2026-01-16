@@ -1,0 +1,60 @@
+{
+  "design_rules": {
+    "clearances": {
+      "copper_to_copper": "0.15mm",
+      "copper_to_edge": "0.5mm",
+      "hole_to_hole": "0.5mm",
+      "silk_to_pad": "0.15mm"
+    },
+    "track_widths": [
+      "0.15mm",
+      "0.20mm",
+      "0.35mm",
+      "0.50mm",
+      "0.60mm",
+      "0.80mm"
+    ],
+    "via_sizes": [
+      {"diameter": "0.7mm", "drill": "0.3mm", "note": "Signal vias"},
+      {"diameter": "0.8mm", "drill": "0.4mm", "note": "Power vias"},
+      {"diameter": "1.0mm", "drill": "0.5mm", "note": "Shield vias"}
+    ],
+    "differential_pairs": {
+      "USB_D": {
+        "track_width": "0.35mm",
+        "gap": "0.15mm",
+        "target_impedance": "90Ω",
+        "max_uncoupled": "0.2mm",
+        "length_tolerance": "2mm"
+      }
+    },
+    "net_classes": {
+      "default": {
+        "clearance": "0.15mm",
+        "track_width": "0.15mm",
+        "via_diameter": "0.7mm",
+        "via_drill": "0.3mm"
+      },
+      "power_5v": {
+        "clearance": "0.20mm",
+        "track_width": "0.60mm",
+        "via_diameter": "0.8mm",
+        "via_drill": "0.4mm"
+      },
+      "power_3v3": {
+        "clearance": "0.20mm",
+        "track_width": "0.50mm",
+        "via_diameter": "0.8mm",
+        "via_drill": "0.4mm"
+      },
+      "usb_diff": {
+        "clearance": "0.20mm",
+        "track_width": "0.35mm",
+        "via_diameter": "0.7mm",
+        "via_drill": "0.3mm",
+        "differential": true,
+        "diff_pair_gap": "0.15mm"
+      }
+    }
+  }
+}
