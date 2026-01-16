@@ -193,6 +193,18 @@ python display_server.py
 
 ---
 
+### Flashing Pre-built Firmware
+
+If firmware binaries are provided in releases:
+
+```
+# Install esptool
+pip install esptool
+
+# Flash firmware (adjust port as needed)
+esptool.py --port /dev/ttyACM0 --baud 460800 write_flash 0x0 firmware.bin
+```
+
 ## Assembly
 
 **Status**: In Development (Hardware Revision: MkI)
@@ -244,6 +256,41 @@ Detailed assembly guide with photos and troubleshooting tips will be added to `d
 - Alternative enclosure designs (acrylic, 3D printed)
 
 ---
+
+Supported brokers: Mosquitto, HiveMQ, EMQX, or any standard MQTT 3.1.1 broker.
+
+## Companion Application
+
+The optional PC companion application (`companion/display_server.py`) provides:
+
+- System statistics monitoring (CPU, RAM, GPU temperature)
+- Automatic display updates
+- CLI for quick display commands
+- MQTT bridge for remote sync
+
+### Installation
+
+```
+cd companion
+pip install -r requirements.txt
+cp config.example.yaml config.yaml
+python display_server.py
+```
+
+## Troubleshooting
+
+Common issues and solutions are documented in `docs/troubleshooting.md`. Quick reference:
+
+| Issue | Solution |
+|-------|----------|
+| Display not working | Check FPC cable orientation and connection |
+| USB not recognized | Verify USB data lines, try different cable |
+| WiFi won't connect | Check antenna clearance, verify credentials |
+| Device runs hot | Verify thermal vias, reduce brightness |
+
+## Version History
+
+See `CHANGELOG.md` for detailed version history.
 
 ## License
 
