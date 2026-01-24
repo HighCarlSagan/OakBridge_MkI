@@ -7095,12 +7095,6 @@
 		(uuid "14aa3755-5a8a-4616-a6bd-d0f7a97c5659")
 	)
 	(junction
-		(at 454.66 304.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "165c63eb-9d1a-4bcd-b111-1037f186b79b")
-	)
-	(junction
 		(at 433.07 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7201,12 +7195,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d1cb268-2067-4a15-b516-3d21d36b31b1")
-	)
-	(junction
-		(at 453.39 280.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52b489c6-8b51-4ed9-9261-026b8be3e03b")
 	)
 	(junction
 		(at 293.37 271.78)
@@ -7997,16 +7985,6 @@
 			(type default)
 		)
 		(uuid "18493845-72fc-490e-9337-3ab724d1b6a9")
-	)
-	(wire
-		(pts
-			(xy 454.66 300.99) (xy 454.66 304.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18f23be9-2a3c-421a-8d2f-ce79898b4109")
 	)
 	(wire
 		(pts
@@ -9370,26 +9348,6 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 280.67) (xy 453.39 280.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74cdca31-35ea-481c-af61-6f27e1f53f3c")
-	)
-	(wire
-		(pts
-			(xy 454.66 304.8) (xy 462.28 304.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7510a134-639c-4183-aaf1-dbfc0e072ae0")
-	)
-	(wire
-		(pts
 			(xy 215.9 100.33) (xy 215.9 97.79)
 		)
 		(stroke
@@ -9950,7 +9908,7 @@
 	)
 	(wire
 		(pts
-			(xy 436.88 304.8) (xy 454.66 304.8)
+			(xy 436.88 304.8) (xy 462.28 304.8)
 		)
 		(stroke
 			(width 0)
@@ -10357,16 +10315,6 @@
 			(type default)
 		)
 		(uuid "ac84e94a-8f9a-4bdf-a4dc-0a920a5c1099")
-	)
-	(wire
-		(pts
-			(xy 453.39 278.13) (xy 453.39 280.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aca74c9e-104e-46a5-88a7-f8791c3d5911")
 	)
 	(wire
 		(pts
@@ -10790,7 +10738,7 @@
 	)
 	(wire
 		(pts
-			(xy 453.39 280.67) (xy 462.28 280.67)
+			(xy 435.61 280.67) (xy 462.28 280.67)
 		)
 		(stroke
 			(width 0)
@@ -13478,7 +13426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0553b85e-510e-4e9b-8546-b37829d30034")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR055"
 			(at 462.28 288.29 0)
 			(effects
 				(font
@@ -13528,7 +13476,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR053")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -13544,7 +13492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06c003ab-b457-4de2-be4b-b81e01a9d808")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR040"
 			(at 365.76 179.07 0)
 			(effects
 				(font
@@ -13594,7 +13542,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR016")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -13757,7 +13705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0938558f-b403-4351-a4c8-ae6f3a334834")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR056"
 			(at 462.28 314.96 0)
 			(effects
 				(font
@@ -13807,7 +13755,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR055")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -13889,7 +13837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a477908-16b9-49bb-aa03-358d70e0ec50")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR039"
 			(at 359.41 351.79 0)
 			(effects
 				(font
@@ -13939,7 +13887,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR044")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -13954,8 +13902,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0dee2f25-009b-4348-8ea5-136917fad907")
-		(property "Reference" "R30"
-			(at 431.8 182.626 90)
+		(property "Reference" "R28"
+			(at 431.8 182.118 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14078,7 +14026,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "R30")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -14352,8 +14300,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10900ec1-014b-4930-86df-bcff991b536d")
-		(property "Reference" "R12"
-			(at 241.3 310.896 90)
+		(property "Reference" "R10"
+			(at 241.3 310.388 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14476,7 +14424,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "R12")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -14634,7 +14582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17cfecce-363a-46b0-bb11-eee509e75eeb")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 358.14 306.07 0)
 			(effects
 				(font
@@ -14684,7 +14632,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -14699,7 +14647,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "188b23e9-7658-4ad7-a287-264df199c329")
-		(property "Reference" "H9"
+		(property "Reference" "H5"
 			(at 471.17 291.846 0)
 			(effects
 				(font
@@ -14750,7 +14698,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "H9")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -15048,7 +14996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e1c891e-1f8b-4ee2-90ed-591e64e080df")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR030"
 			(at 293.37 308.61 0)
 			(effects
 				(font
@@ -15098,7 +15046,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR040")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -15321,7 +15269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1efbd2d7-8629-4589-938a-2670a76684d7")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR020"
 			(at 241.3 307.34 0)
 			(effects
 				(font
@@ -15371,7 +15319,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR041")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -15444,6 +15392,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 266.7 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21799663-21b0-4d6f-b8a0-ffa81e03e95b")
+		(property "Reference" "#PWR064"
+			(at 266.7 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 266.7 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 266.7 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97980d22-c075-4690-ada0-5cc8f52d08ae")
+		)
+		(instances
+			(project "PC_Interface_Card"
+				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 427.99 64.77 0)
 		(unit 1)
@@ -15452,7 +15466,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21c6634b-a753-4cdf-85be-a7797d74a553")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR051"
 			(at 427.99 71.12 0)
 			(effects
 				(font
@@ -15502,7 +15516,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR056")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -15658,7 +15672,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26bbeb26-1de8-4312-accd-e69ec862b6b9")
-		(property "Reference" "R16"
+		(property "Reference" "R12"
 			(at 278.13 72.898 90)
 			(effects
 				(font
@@ -15782,7 +15796,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "R16")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -15797,7 +15811,7 @@
 		(on_board no)
 		(dnp yes)
 		(uuid "27e23136-59b7-4cfb-ab79-0d16c7cbb789")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 180.086 277.876 0)
 			(effects
 				(font
@@ -15948,7 +15962,7 @@
 		(instances
 			(project ""
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -16241,7 +16255,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ff21069-e498-4017-a3ed-21cc8c4c189c")
-		(property "Reference" "R33"
+		(property "Reference" "R29"
 			(at 485.14 182.626 90)
 			(effects
 				(font
@@ -16365,7 +16379,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "R33")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -16381,7 +16395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30af6cd5-2389-4318-9c94-9c99bacee9c5")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR042"
 			(at 369.57 83.82 0)
 			(effects
 				(font
@@ -16431,7 +16445,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR07")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -16654,7 +16668,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "369f715f-bccc-4130-a2a0-83fbda6eed21")
-		(property "Reference" "H5"
+		(property "Reference" "H6"
 			(at 487.68 268.986 0)
 			(effects
 				(font
@@ -16705,7 +16719,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "H5")
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -17156,7 +17170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "423c9c3a-af4c-41e3-90d0-ef1daf98194a")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR016"
 			(at 215.9 106.68 0)
 			(effects
 				(font
@@ -17206,7 +17220,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR018")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -17363,7 +17377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43746d6a-5809-48b8-8fb7-4e6e214481cb")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR053"
 			(at 452.12 132.08 0)
 			(effects
 				(font
@@ -17413,7 +17427,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR058")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -17429,7 +17443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "443c7f42-8727-450f-955f-c46f007b6e03")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR029"
 			(at 293.37 292.1 0)
 			(effects
 				(font
@@ -17479,7 +17493,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR031")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -17495,7 +17509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "443d6e2b-3aad-42db-bbe4-f2f68e2968e3")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR013"
 			(at 198.12 175.26 0)
 			(effects
 				(font
@@ -17545,7 +17559,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR048")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -17561,7 +17575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47a37928-6452-4f89-a36c-2d779a835609")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR023"
 			(at 260.35 325.12 0)
 			(effects
 				(font
@@ -17611,7 +17625,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR025")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -17626,7 +17640,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48dca1cc-f657-4109-a70f-ed860b1dffd0")
-		(property "Reference" "R19"
+		(property "Reference" "R18"
 			(at 337.82 315.976 90)
 			(effects
 				(font
@@ -17750,7 +17764,73 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "R19")
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 311.15 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a012604-8415-4a1d-a0e3-01b187caedad")
+		(property "Reference" "#PWR063"
+			(at 311.15 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 311.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 311.15 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 311.15 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 311.15 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "630cd555-0b9e-4007-b26a-c6f709976ff9")
+		)
+		(instances
+			(project "PC_Interface_Card"
+				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -17766,7 +17846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e6312a0-efe4-4315-87b7-49bb3059ba81")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR046"
 			(at 398.78 209.55 0)
 			(effects
 				(font
@@ -17816,7 +17896,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR051")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -17832,7 +17912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f6ae7c8-29ca-494b-b5d2-eb7e6dedf0be")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR07"
 			(at 142.24 158.75 0)
 			(effects
 				(font
@@ -17882,7 +17962,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR043")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -17898,7 +17978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5080ea7e-d059-493e-8f8b-60784e47812e")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR059"
 			(at 491.49 179.07 0)
 			(effects
 				(font
@@ -17948,7 +18028,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR028")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -18655,7 +18735,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a467a2c-94a6-4139-b8c0-2d4110e75f67")
-		(property "Reference" "H10"
+		(property "Reference" "H7"
 			(at 488.95 291.846 0)
 			(effects
 				(font
@@ -18706,7 +18786,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "H10")
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -18722,7 +18802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c281bd7-1951-41b2-a0b5-b57a6979a0ca")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR035"
 			(at 317.5 109.22 0)
 			(effects
 				(font
@@ -18772,7 +18852,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR039")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -19070,7 +19150,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63b4c97f-2684-4678-b21d-84627d0262f4")
-		(property "Reference" "H6"
+		(property "Reference" "H8"
 			(at 505.46 268.986 0)
 			(effects
 				(font
@@ -19121,7 +19201,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "H6")
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -19136,7 +19216,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "645e0c18-9e7a-4155-88a4-ff9a14e6926a")
-		(property "Reference" "R26"
+		(property "Reference" "R25"
 			(at 383.54 315.976 90)
 			(effects
 				(font
@@ -19260,7 +19340,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "R26")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -19648,7 +19728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b0b274b-0e85-4a9e-9248-190314400df1")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR017"
 			(at 220.98 182.88 0)
 			(effects
 				(font
@@ -19698,7 +19778,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR050")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -19855,7 +19935,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6cac3ab2-927d-4179-82e4-540824b12991")
-		(property "Reference" "R22"
+		(property "Reference" "R20"
 			(at 353.06 315.976 90)
 			(effects
 				(font
@@ -19979,73 +20059,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 454.66 298.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "6e1d2b46-7f1e-4c4b-8086-f68738892452")
-		(property "Reference" "H8"
-			(at 453.39 291.846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 446.278 293.878 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
-			(at 454.66 298.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 454.66 298.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 454.66 298.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f2ae755-1929-4b70-9b88-42fc86d13731")
-		)
-		(instances
-			(project "PC_Interface_Card"
-				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "H8")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -20203,7 +20217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71f96462-ab33-402a-8050-30cc08ae8625")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR021"
 			(at 241.3 339.09 0)
 			(effects
 				(font
@@ -20253,7 +20267,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR023")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -20269,7 +20283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "734d3c37-51b7-4a72-954b-dce4741811f9")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR044"
 			(at 369.57 278.13 0)
 			(effects
 				(font
@@ -20319,7 +20333,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR045")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -20335,7 +20349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "790ea478-300d-4858-9ca7-2e57195487f6")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR027"
 			(at 278.13 69.85 0)
 			(effects
 				(font
@@ -20385,7 +20399,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR05")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -20608,7 +20622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e06cc2d-358b-4b02-9f07-501ca5d43fc2")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR026"
 			(at 267.97 214.63 0)
 			(effects
 				(font
@@ -20658,7 +20672,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR029")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -20674,7 +20688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7effcc3e-a6f5-4866-b5e0-460c23950615")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR024"
 			(at 262.89 82.55 0)
 			(effects
 				(font
@@ -20724,7 +20738,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR026")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -20740,7 +20754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "852312f2-fd74-46a2-9b62-af9819adc1c8")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR032"
 			(at 311.15 212.09 0)
 			(effects
 				(font
@@ -20790,7 +20804,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR038")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -20805,7 +20819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87ce2260-6bc4-4c64-a9f6-900f44e68dee")
-		(property "Reference" "R25"
+		(property "Reference" "R22"
 			(at 365.76 182.626 90)
 			(effects
 				(font
@@ -20929,7 +20943,73 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "R25")
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 318.77 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8924d157-9ed3-4585-82f9-da22c9419cf3")
+		(property "Reference" "#PWR062"
+			(at 318.77 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 318.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 318.77 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.77 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 318.77 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddc4d1e2-2a56-4b22-8041-ddb0633dfd94")
+		)
+		(instances
+			(project "PC_Interface_Card"
+				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -21684,7 +21764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9631a78d-2733-40ae-be2f-2b86011ed872")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR025"
 			(at 262.89 106.68 0)
 			(effects
 				(font
@@ -21734,7 +21814,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR027")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -21815,8 +21895,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98e51e67-c55e-4829-b6e0-26fd80c701eb")
-		(property "Reference" "R21"
-			(at 350.52 263.906 90)
+		(property "Reference" "R19"
+			(at 350.52 263.144 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21939,7 +22019,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "R21")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -22095,8 +22175,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9dbdab48-baa0-4724-b541-cda19fecb8fa")
-		(property "Reference" "R14"
-			(at 293.37 263.906 90)
+		(property "Reference" "R13"
+			(at 293.37 262.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22219,7 +22299,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "R14")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -22235,7 +22315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ed3c5bd-9f8e-431e-822a-b3b20f54fa7e")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR047"
 			(at 414.02 130.81 0)
 			(effects
 				(font
@@ -22285,7 +22365,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR052")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -22301,7 +22381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0fc5b5b-6355-4486-85be-4df5c9c41c2f")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR058"
 			(at 485.14 209.55 0)
 			(effects
 				(font
@@ -22351,7 +22431,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR062")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -22366,7 +22446,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1a74b9e-dd3c-457a-b92e-5dbb5ea16a85")
-		(property "Reference" "R27"
+		(property "Reference" "R24"
 			(at 372.11 182.626 90)
 			(effects
 				(font
@@ -22490,7 +22570,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "R27")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -22645,7 +22725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a466c55d-6d45-489e-a93e-d412332dd996")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 187.325 168.91 0)
 			(effects
 				(font
@@ -22802,7 +22882,7 @@
 		(instances
 			(project ""
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -22818,7 +22898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4b5931b-8908-4310-984e-68b9374ceb3b")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR034"
 			(at 312.42 326.39 0)
 			(effects
 				(font
@@ -22868,7 +22948,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR036")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -22884,7 +22964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4ed87a5-ec1f-4922-b85e-c244b7c0d8e9")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 207.01 82.55 0)
 			(effects
 				(font
@@ -22934,7 +23014,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -23300,72 +23380,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 453.39 275.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "a82ccd0f-bd36-4b64-9fdf-6556b676c9d8")
-		(property "Reference" "H3"
-			(at 452.12 268.986 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 445.008 271.018 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
-			(at 453.39 275.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 453.39 275.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 453.39 275.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b5e95adc-d985-46ab-90f6-31616b4aa91b")
-		)
-		(instances
-			(project "PC_Interface_Card"
-				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 425.45 203.2 0)
 		(unit 1)
@@ -23375,7 +23389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9467f2e-2ca6-405f-93fa-159e05c3f84e")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR049"
 			(at 425.45 209.55 0)
 			(effects
 				(font
@@ -23425,7 +23439,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR054")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -23581,8 +23595,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abe09438-af8c-4ef0-8b25-2d8fcf0471eb")
-		(property "Reference" "R15"
-			(at 293.37 312.166 90)
+		(property "Reference" "R14"
+			(at 293.37 311.658 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23705,7 +23719,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "R15")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -23787,7 +23801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af79d88b-58cb-4272-a66c-24ca9780975c")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR043"
 			(at 369.57 99.06 0)
 			(effects
 				(font
@@ -23837,7 +23851,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR049")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -24297,7 +24311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b631a41a-c528-4ffe-85de-8ec0fc85f8f6")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR018"
 			(at 241.3 260.35 0)
 			(effects
 				(font
@@ -24347,7 +24361,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR030")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -24504,7 +24518,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9c7ca27-a793-49ce-96f7-43e54f99d338")
-		(property "Reference" "R20"
+		(property "Reference" "R16"
 			(at 318.77 176.784 90)
 			(effects
 				(font
@@ -24628,7 +24642,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "R20")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -24940,7 +24954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c35042f3-6004-4d3e-a8fa-055ef06d15e3")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR061"
 			(at 518.16 209.55 0)
 			(effects
 				(font
@@ -24990,7 +25004,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR064")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -25072,7 +25086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c54e246d-34ee-4043-bcb7-3242ef855622")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR050"
 			(at 427.99 55.88 0)
 			(effects
 				(font
@@ -25122,7 +25136,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR014")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -25137,7 +25151,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c59edd06-c512-436a-925d-fd4c2320b3b1")
-		(property "Reference" "R13"
+		(property "Reference" "R11"
 			(at 266.7 178.054 90)
 			(effects
 				(font
@@ -25261,7 +25275,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "R13")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -25277,7 +25291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6a2e87a-33ba-4936-b2d9-70e4bf6f6812")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR057"
 			(at 485.14 179.07 0)
 			(effects
 				(font
@@ -25327,7 +25341,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR022")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -25482,7 +25496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c99fb84b-4a18-4dfc-88e4-404370f3faf2")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR037"
 			(at 350.52 292.1 0)
 			(effects
 				(font
@@ -25532,7 +25546,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR042")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -25548,7 +25562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cae1ece1-1afa-4c13-9b10-ace4e16d359c")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR031"
 			(at 293.37 340.36 0)
 			(effects
 				(font
@@ -25598,7 +25612,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR033")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -25613,7 +25627,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc6f5bd8-4050-41ae-9c6a-9f6aa9a0b584")
-		(property "Reference" "H7"
+		(property "Reference" "H3"
 			(at 435.61 291.846 0)
 			(effects
 				(font
@@ -25664,7 +25678,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "H7")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -25680,7 +25694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc866430-c0f9-4d0e-b7c8-d5568ec38e86")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR036"
 			(at 350.52 260.35 0)
 			(effects
 				(font
@@ -25730,7 +25744,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR034")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -25746,7 +25760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd8ff135-bc0e-48ab-8e6d-1915cfa0e5c6")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR045"
 			(at 372.11 179.07 0)
 			(effects
 				(font
@@ -25796,7 +25810,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR017")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -25878,7 +25892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfb47465-90f5-407c-869e-c32bb9087f92")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR041"
 			(at 365.76 209.55 0)
 			(effects
 				(font
@@ -25928,7 +25942,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR047")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -25944,7 +25958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d03e25c0-d073-4c78-8b38-e6a97904c9be")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR054"
 			(at 458.47 209.55 0)
 			(effects
 				(font
@@ -25994,7 +26008,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR059")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -26009,7 +26023,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d15021cb-f2eb-4f4e-8cca-1d89a5867597")
-		(property "Reference" "R10"
+		(property "Reference" "R8"
 			(at 220.98 187.198 90)
 			(effects
 				(font
@@ -26133,7 +26147,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "R10")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -26335,7 +26349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4530cfa-e3ae-4158-9093-8757ba4e989a")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR05"
 			(at 121.92 203.2 0)
 			(effects
 				(font
@@ -26385,7 +26399,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR046")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -26401,7 +26415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d67270f4-b0d2-4e30-bc5d-03bf438ca60d")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR048"
 			(at 425.45 179.07 0)
 			(effects
 				(font
@@ -26451,7 +26465,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR019")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -26466,7 +26480,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6e13757-1161-4fd9-bad7-b771e57d5d25")
-		(property "Reference" "R34"
+		(property "Reference" "R30"
 			(at 491.49 182.626 90)
 			(effects
 				(font
@@ -26590,7 +26604,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "R34")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -26811,7 +26825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc495c09-82fa-4bfe-b54a-009a8814a55e")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR052"
 			(at 431.8 179.07 0)
 			(effects
 				(font
@@ -26861,7 +26875,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR020")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -26877,7 +26891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcc104ad-3e7c-47bd-aa0a-c9fc1bf2fc86")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR028"
 			(at 293.37 260.35 0)
 			(effects
 				(font
@@ -26927,7 +26941,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR032")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -27650,8 +27664,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e474ecf1-69b8-4b31-bdb2-8d85d620d309")
-		(property "Reference" "R29"
-			(at 425.45 182.626 90)
+		(property "Reference" "R27"
+			(at 425.45 182.118 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27774,7 +27788,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "R29")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -27930,7 +27944,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ecb675c9-b1da-489a-9695-e3dac59f9009")
-		(property "Reference" "R11"
+		(property "Reference" "R9"
 			(at 241.3 263.906 90)
 			(effects
 				(font
@@ -28054,7 +28068,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "R11")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -28070,7 +28084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecbb4a04-91cc-474b-aaf5-51836407f2e0")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR019"
 			(at 241.3 292.1 0)
 			(effects
 				(font
@@ -28120,7 +28134,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR021")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -28136,7 +28150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2f24992-0a37-4af8-8407-dd3fc7c2d41d")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR022"
 			(at 260.35 278.13 0)
 			(effects
 				(font
@@ -28186,7 +28200,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR024")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -28340,7 +28354,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4545da2-1d9c-43fa-85c9-bba7708232ca")
-		(property "Reference" "R18"
+		(property "Reference" "R15"
 			(at 311.15 176.784 90)
 			(effects
 				(font
@@ -28464,7 +28478,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "R18")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -28752,7 +28766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa603131-392a-4b8f-aa1e-3193ec2aed74")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR033"
 			(at 312.42 278.13 0)
 			(effects
 				(font
@@ -28802,7 +28816,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "#PWR035")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -28958,7 +28972,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fea04eec-7d88-4392-9c28-d18dd9e03380")
-		(property "Reference" "R28"
+		(property "Reference" "R26"
 			(at 414.02 118.618 90)
 			(effects
 				(font
@@ -29082,7 +29096,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "R28")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -29097,7 +29111,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ffc7f31e-b30c-43ad-9864-4a74708aa9ce")
-		(property "Reference" "R24"
+		(property "Reference" "R21"
 			(at 354.33 91.948 90)
 			(effects
 				(font
@@ -29221,7 +29235,7 @@
 		(instances
 			(project "PC_Interface_Card"
 				(path "/84eb640b-174f-4748-a6d8-0439a1f868d2"
-					(reference "R24")
+					(reference "R21")
 					(unit 1)
 				)
 			)
