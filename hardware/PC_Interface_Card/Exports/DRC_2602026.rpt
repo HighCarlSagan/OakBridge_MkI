@@ -1,0 +1,434 @@
+** Drc report for PC_Interface_Card.kicad_pcb **
+** Created on 2026-01-26T01:29:58+0530 **
+
+** Found 112 DRC violations **
+[diff_pair_gap_out_of_range]: Differential pair gap out of range (USB_diff_pair_gap maximum gap 0.1500 mm; actual 1.0200 mm)
+    Rule: USB_diff_pair_gap; error
+    @(59.1050 mm, 55.9900 mm): Track [D+] on F.Cu, length 1.1250 mm
+    @(59.1050 mm, 54.7200 mm): Track [D-] on F.Cu, length 1.1250 mm
+[diff_pair_gap_out_of_range]: Differential pair gap out of range (USB_diff_pair_gap maximum gap 0.1500 mm; actual 1.6500 mm)
+    Rule: USB_diff_pair_gap; error
+    @(51.4087 mm, 56.3200 mm): Track [D+] on F.Cu, length 0.9938 mm
+    @(51.4087 mm, 54.4200 mm): Track [D-] on F.Cu, length 0.9938 mm
+[diff_pair_gap_out_of_range]: Differential pair gap out of range (USB_diff_pair_gap maximum gap 0.1500 mm; actual 0.2500 mm)
+    Rule: USB_diff_pair_gap; error
+    @(22.3500 mm, 73.0000 mm): Track [D+] on B.Cu, length 0.8625 mm
+    @(22.3500 mm, 72.5000 mm): Track [D-] on B.Cu, length 0.8625 mm
+[diff_pair_uncoupled_length_too_long]: Differential uncoupled length too long (USB_diff_pair_uncoupled maximum uncoupled length 0.2000 mm; actual 10.8945 mm)
+    Rule: USB_diff_pair_uncoupled; error
+    @(32.5104 mm, 72.8100 mm): Track [D+] on F.Cu, length 1.3568 mm
+    @(54.6775 mm, 54.4200 mm): Track [D-] on F.Cu, length 0.9938 mm
+[diff_pair_gap_out_of_range]: Differential pair gap out of range (USB_diff_pair_gap maximum gap 0.1500 mm; actual 1.0200 mm)
+    Rule: USB_diff_pair_gap; error
+    @(59.1050 mm, 55.9900 mm): Track [D+] on F.Cu, length 1.1250 mm
+    @(59.1050 mm, 54.7200 mm): Track [D-] on F.Cu, length 1.1250 mm
+[diff_pair_gap_out_of_range]: Differential pair gap out of range (USB_diff_pair_gap maximum gap 0.1500 mm; actual 1.6500 mm)
+    Rule: USB_diff_pair_gap; error
+    @(51.4087 mm, 56.3200 mm): Track [D+] on F.Cu, length 0.9938 mm
+    @(51.4087 mm, 54.4200 mm): Track [D-] on F.Cu, length 0.9938 mm
+[diff_pair_gap_out_of_range]: Differential pair gap out of range (USB_diff_pair_gap maximum gap 0.1500 mm; actual 0.2500 mm)
+    Rule: USB_diff_pair_gap; error
+    @(22.3500 mm, 73.0000 mm): Track [D+] on B.Cu, length 0.8625 mm
+    @(22.3500 mm, 72.5000 mm): Track [D-] on B.Cu, length 0.8625 mm
+[length_out_of_range]: Track length out of range (rule 'USB_length_matching' max length 2.0000 mm; actual 51.0169 mm)
+    Rule: USB_length_matching; error
+    @(59.1050 mm, 55.9900 mm): Pad 14 [D+] of U4 on F.Cu
+    @(54.6775 mm, 56.3200 mm): Pad 1 [D+] of U1 on F.Cu
+[length_out_of_range]: Track length out of range (rule 'USB_length_matching' max length 2.0000 mm; actual 51.1057 mm)
+    Rule: USB_length_matching; error
+    @(59.1050 mm, 54.7200 mm): Pad 13 [D-] of U4 on F.Cu
+    @(54.6775 mm, 54.4200 mm): Pad 3 [D-] of U1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(16.4000 mm, 35.1250 mm): Zone [GND] on F.Cu and B.Cu, priority 1
+    @(22.3500 mm, 75.9500 mm): Pad A1_B12 [GND] of J1 on B.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(16.4000 mm, 35.1250 mm): Zone [GND] on F.Cu and B.Cu, priority 1
+    @(74.8700 mm, 61.0550 mm): Pad 1 [GND] of R32 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(16.4000 mm, 35.1250 mm): Zone [GND] on F.Cu and B.Cu, priority 1
+    @(136.1150 mm, 47.8300 mm): Pad 2 [GND] of C19 on F.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(64.9550 mm, 46.5000 mm): PTH pad 41 [GND] of U4
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(64.9550 mm, 47.9000 mm): PTH pad 41 [GND] of U4
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(65.6550 mm, 45.8000 mm): PTH pad 41 [GND] of U4
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(65.6550 mm, 47.2000 mm): PTH pad 41 [GND] of U4
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(65.6550 mm, 48.6000 mm): PTH pad 41 [GND] of U4
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(66.3550 mm, 46.5000 mm): PTH pad 41 [GND] of U4
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(66.3550 mm, 47.9000 mm): PTH pad 41 [GND] of U4
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(67.0550 mm, 45.8000 mm): PTH pad 41 [GND] of U4
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(67.0550 mm, 47.2000 mm): PTH pad 41 [GND] of U4
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(67.0550 mm, 48.6000 mm): PTH pad 41 [GND] of U4
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(67.7550 mm, 46.5000 mm): PTH pad 41 [GND] of U4
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(67.7550 mm, 47.9000 mm): PTH pad 41 [GND] of U4
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4760 mm)
+    Rule: board setup constraints edge; error
+    @(16.4000 mm, 35.1350 mm): Rectangle on Edge.Cuts
+    @(17.8310 mm, 81.3900 mm): Pad S4 [GND] of J2 on F.Cu
+[clearance]: Clearance violation (netclass 'USB_Diff' clearance 0.1500 mm; actual 0.1320 mm)
+    Rule: netclass 'USB_Diff'; error
+    @(23.2625 mm, 72.5500 mm): Track [D-] on B.Cu, length 1.5425 mm
+    @(25.1700 mm, 73.0350 mm): Via [D+] on F.Cu - B.Cu
+[clearance]: Clearance violation (netclass 'USB_Diff' clearance 0.1500 mm; actual 0.1320 mm)
+    Rule: netclass 'USB_Diff'; error
+    @(24.8050 mm, 72.5500 mm): Track [D-] on B.Cu, length 0.5162 mm
+    @(25.1700 mm, 73.0350 mm): Via [D+] on F.Cu - B.Cu
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(26.1226 mm, 58.3700 mm): Reference field of CR1
+    @(25.6518 mm, 59.1900 mm): Circle of CR1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(68.2700 mm, 76.0100 mm): Reference field of J4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(118.9747 mm, 81.4650 mm): Reference field of LED5
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(135.2847 mm, 81.6850 mm): Reference field of LED3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(135.4447 mm, 65.2650 mm): Reference field of LED2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(135.2300 mm, 97.9950 mm): Reference field of LED4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(151.6287 mm, 81.4550 mm): Reference field of LED1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(139.9100 mm, 47.7700 mm): Reference field of C17
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(139.8600 mm, 46.2900 mm): Reference field of R27
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(134.4400 mm, 47.8200 mm): Reference field of C19
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(134.4900 mm, 46.2500 mm): Reference field of R29
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.4858 mm)
+    Rule: board setup constraints; warning
+    @(21.1750 mm, 70.8910 mm): Via [VUSB] on F.Cu - B.Cu
+    @(21.2750 mm, 69.8600 mm): NPTH pad of J1
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(24.2500 mm, 51.9400 mm): PTH pad 1 [GND] of H4
+    @(25.9000 mm, 51.9400 mm): PTH pad 1 [GND] of H4
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(24.7333 mm, 50.7733 mm): PTH pad 1 [GND] of H4
+    @(25.9000 mm, 51.9400 mm): PTH pad 1 [GND] of H4
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(25.9000 mm, 51.9400 mm): PTH pad 1 [GND] of H4
+    @(24.7333 mm, 53.1067 mm): PTH pad 1 [GND] of H4
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(25.9000 mm, 50.2900 mm): PTH pad 1 [GND] of H4
+    @(25.9000 mm, 51.9400 mm): PTH pad 1 [GND] of H4
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(25.9000 mm, 53.5900 mm): PTH pad 1 [GND] of H4
+    @(25.9000 mm, 51.9400 mm): PTH pad 1 [GND] of H4
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(27.0667 mm, 53.1067 mm): PTH pad 1 [GND] of H4
+    @(25.9000 mm, 51.9400 mm): PTH pad 1 [GND] of H4
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(25.9000 mm, 51.9400 mm): PTH pad 1 [GND] of H4
+    @(27.0667 mm, 50.7733 mm): PTH pad 1 [GND] of H4
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(27.5500 mm, 51.9400 mm): PTH pad 1 [GND] of H4
+    @(25.9000 mm, 51.9400 mm): PTH pad 1 [GND] of H4
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(24.2500 mm, 100.9400 mm): PTH pad 1 [GND] of H5
+    @(25.9000 mm, 100.9400 mm): PTH pad 1 [GND] of H5
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(25.9000 mm, 100.9400 mm): PTH pad 1 [GND] of H5
+    @(24.7333 mm, 99.7733 mm): PTH pad 1 [GND] of H5
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(24.7333 mm, 102.1067 mm): PTH pad 1 [GND] of H5
+    @(25.9000 mm, 100.9400 mm): PTH pad 1 [GND] of H5
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(25.9000 mm, 99.2900 mm): PTH pad 1 [GND] of H5
+    @(25.9000 mm, 100.9400 mm): PTH pad 1 [GND] of H5
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(27.0667 mm, 99.7733 mm): PTH pad 1 [GND] of H5
+    @(25.9000 mm, 100.9400 mm): PTH pad 1 [GND] of H5
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(25.9000 mm, 100.9400 mm): PTH pad 1 [GND] of H5
+    @(27.0667 mm, 102.1067 mm): PTH pad 1 [GND] of H5
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(25.9000 mm, 100.9400 mm): PTH pad 1 [GND] of H5
+    @(27.5500 mm, 100.9400 mm): PTH pad 1 [GND] of H5
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(25.9000 mm, 100.9400 mm): PTH pad 1 [GND] of H5
+    @(25.9000 mm, 102.5900 mm): PTH pad 1 [GND] of H5
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(83.9100 mm, 51.9400 mm): PTH pad 1 [GND] of H3
+    @(82.2600 mm, 51.9400 mm): PTH pad 1 [GND] of H3
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(83.9100 mm, 51.9400 mm): PTH pad 1 [GND] of H3
+    @(82.7433 mm, 50.7733 mm): PTH pad 1 [GND] of H3
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(82.7433 mm, 53.1067 mm): PTH pad 1 [GND] of H3
+    @(83.9100 mm, 51.9400 mm): PTH pad 1 [GND] of H3
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(83.9100 mm, 51.9400 mm): PTH pad 1 [GND] of H3
+    @(83.9100 mm, 50.2900 mm): PTH pad 1 [GND] of H3
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(83.9100 mm, 53.5900 mm): PTH pad 1 [GND] of H3
+    @(83.9100 mm, 51.9400 mm): PTH pad 1 [GND] of H3
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(83.9100 mm, 51.9400 mm): PTH pad 1 [GND] of H3
+    @(85.0767 mm, 53.1067 mm): PTH pad 1 [GND] of H3
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(83.9100 mm, 51.9400 mm): PTH pad 1 [GND] of H3
+    @(85.0767 mm, 50.7733 mm): PTH pad 1 [GND] of H3
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(83.9100 mm, 51.9400 mm): PTH pad 1 [GND] of H3
+    @(85.5600 mm, 51.9400 mm): PTH pad 1 [GND] of H3
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(159.7200 mm, 38.0700 mm): PTH pad 1 [GND] of H6
+    @(158.0700 mm, 38.0700 mm): PTH pad 1 [GND] of H6
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(159.7200 mm, 38.0700 mm): PTH pad 1 [GND] of H6
+    @(158.5533 mm, 36.9033 mm): PTH pad 1 [GND] of H6
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(159.7200 mm, 38.0700 mm): PTH pad 1 [GND] of H6
+    @(158.5533 mm, 39.2367 mm): PTH pad 1 [GND] of H6
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(159.7200 mm, 38.0700 mm): PTH pad 1 [GND] of H6
+    @(159.7200 mm, 36.4200 mm): PTH pad 1 [GND] of H6
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(159.7200 mm, 38.0700 mm): PTH pad 1 [GND] of H6
+    @(159.7200 mm, 39.7200 mm): PTH pad 1 [GND] of H6
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(159.7200 mm, 38.0700 mm): PTH pad 1 [GND] of H6
+    @(160.8867 mm, 39.2367 mm): PTH pad 1 [GND] of H6
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(159.7200 mm, 38.0700 mm): PTH pad 1 [GND] of H6
+    @(160.8867 mm, 36.9033 mm): PTH pad 1 [GND] of H6
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(159.7200 mm, 38.0700 mm): PTH pad 1 [GND] of H6
+    @(161.3700 mm, 38.0700 mm): PTH pad 1 [GND] of H6
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(17.7200 mm, 102.8800 mm): PTH pad 1 [GND] of H2
+    @(19.3700 mm, 102.8800 mm): PTH pad 1 [GND] of H2
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(18.2033 mm, 101.7133 mm): PTH pad 1 [GND] of H2
+    @(19.3700 mm, 102.8800 mm): PTH pad 1 [GND] of H2
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(19.3700 mm, 102.8800 mm): PTH pad 1 [GND] of H2
+    @(18.2033 mm, 104.0467 mm): PTH pad 1 [GND] of H2
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(19.3700 mm, 101.2300 mm): PTH pad 1 [GND] of H2
+    @(19.3700 mm, 102.8800 mm): PTH pad 1 [GND] of H2
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(19.3700 mm, 102.8800 mm): PTH pad 1 [GND] of H2
+    @(19.3700 mm, 104.5300 mm): PTH pad 1 [GND] of H2
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(20.5367 mm, 104.0467 mm): PTH pad 1 [GND] of H2
+    @(19.3700 mm, 102.8800 mm): PTH pad 1 [GND] of H2
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(19.3700 mm, 102.8800 mm): PTH pad 1 [GND] of H2
+    @(20.5367 mm, 101.7133 mm): PTH pad 1 [GND] of H2
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(21.0200 mm, 102.8800 mm): PTH pad 1 [GND] of H2
+    @(19.3700 mm, 102.8800 mm): PTH pad 1 [GND] of H2
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(158.0500 mm, 102.9000 mm): PTH pad 1 [GND] of H7
+    @(159.7000 mm, 102.9000 mm): PTH pad 1 [GND] of H7
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(159.7000 mm, 102.9000 mm): PTH pad 1 [GND] of H7
+    @(158.5333 mm, 101.7333 mm): PTH pad 1 [GND] of H7
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(159.7000 mm, 102.9000 mm): PTH pad 1 [GND] of H7
+    @(158.5333 mm, 104.0667 mm): PTH pad 1 [GND] of H7
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(159.7000 mm, 102.9000 mm): PTH pad 1 [GND] of H7
+    @(159.7000 mm, 101.2500 mm): PTH pad 1 [GND] of H7
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(159.7000 mm, 104.5500 mm): PTH pad 1 [GND] of H7
+    @(159.7000 mm, 102.9000 mm): PTH pad 1 [GND] of H7
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(160.8667 mm, 101.7333 mm): PTH pad 1 [GND] of H7
+    @(159.7000 mm, 102.9000 mm): PTH pad 1 [GND] of H7
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(159.7000 mm, 102.9000 mm): PTH pad 1 [GND] of H7
+    @(160.8667 mm, 104.0667 mm): PTH pad 1 [GND] of H7
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(161.3500 mm, 102.9000 mm): PTH pad 1 [GND] of H7
+    @(159.7000 mm, 102.9000 mm): PTH pad 1 [GND] of H7
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(19.3467 mm, 38.0133 mm): PTH pad 1 [GND] of H1
+    @(17.6967 mm, 38.0133 mm): PTH pad 1 [GND] of H1
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(18.1800 mm, 36.8465 mm): PTH pad 1 [GND] of H1
+    @(19.3467 mm, 38.0133 mm): PTH pad 1 [GND] of H1
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(19.3467 mm, 38.0133 mm): PTH pad 1 [GND] of H1
+    @(18.1800 mm, 39.1800 mm): PTH pad 1 [GND] of H1
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(19.3467 mm, 36.3633 mm): PTH pad 1 [GND] of H1
+    @(19.3467 mm, 38.0133 mm): PTH pad 1 [GND] of H1
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(19.3467 mm, 39.6633 mm): PTH pad 1 [GND] of H1
+    @(19.3467 mm, 38.0133 mm): PTH pad 1 [GND] of H1
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(20.5135 mm, 39.1800 mm): PTH pad 1 [GND] of H1
+    @(19.3467 mm, 38.0133 mm): PTH pad 1 [GND] of H1
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(19.3467 mm, 38.0133 mm): PTH pad 1 [GND] of H1
+    @(20.5135 mm, 36.8465 mm): PTH pad 1 [GND] of H1
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(20.9967 mm, 38.0133 mm): PTH pad 1 [GND] of H1
+    @(19.3467 mm, 38.0133 mm): PTH pad 1 [GND] of H1
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(83.9035 mm, 100.9350 mm): PTH pad 1 [GND] of H8
+    @(82.2535 mm, 100.9350 mm): PTH pad 1 [GND] of H8
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(82.7367 mm, 99.7683 mm): PTH pad 1 [GND] of H8
+    @(83.9035 mm, 100.9350 mm): PTH pad 1 [GND] of H8
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(82.7367 mm, 102.1017 mm): PTH pad 1 [GND] of H8
+    @(83.9035 mm, 100.9350 mm): PTH pad 1 [GND] of H8
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(83.9035 mm, 100.9350 mm): PTH pad 1 [GND] of H8
+    @(83.9035 mm, 99.2850 mm): PTH pad 1 [GND] of H8
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(85.0702 mm, 99.7683 mm): PTH pad 1 [GND] of H8
+    @(83.9035 mm, 100.9350 mm): PTH pad 1 [GND] of H8
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(83.9035 mm, 102.5850 mm): PTH pad 1 [GND] of H8
+    @(83.9035 mm, 100.9350 mm): PTH pad 1 [GND] of H8
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(83.9035 mm, 100.9350 mm): PTH pad 1 [GND] of H8
+    @(85.0702 mm, 102.1017 mm): PTH pad 1 [GND] of H8
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.3500 mm)
+    Rule: board setup constraints; warning
+    @(83.9035 mm, 100.9350 mm): PTH pad 1 [GND] of H8
+    @(85.5535 mm, 100.9350 mm): PTH pad 1 [GND] of H8
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4995 mm; actual 0.4858 mm)
+    Rule: board setup constraints; warning
+    @(21.1750 mm, 70.8910 mm): Via [VUSB] on F.Cu - B.Cu
+    @(21.2750 mm, 69.8600 mm): NPTH pad of J1
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(16.4000 mm, 35.1350 mm): Rectangle on Edge.Cuts
+    @(58.6550 mm, 31.8400 mm): Segment of U4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(16.4000 mm, 35.1350 mm): Rectangle on Edge.Cuts
+    @(77.0550 mm, 31.8400 mm): Segment of U4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(16.4000 mm, 35.1350 mm): Rectangle on Edge.Cuts
+    @(159.7200 mm, 34.9200 mm): Reference field of H6
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(16.4000 mm, 35.1350 mm): Rectangle on Edge.Cuts
+    @(19.3467 mm, 34.8633 mm): Reference field of H1
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(16.4000 mm, 35.1350 mm): Rectangle on Edge.Cuts
+    @(14.9950 mm, 68.2800 mm): Segment of J1 on B.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(16.4000 mm, 35.1350 mm): Rectangle on Edge.Cuts
+    @(14.9950 mm, 77.2200 mm): Segment of J1 on B.Silkscreen
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(58.8100 mm, 63.2100 mm): Via [SCLK] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(63.8300 mm, 83.8800 mm): Via [3V3] on F.Cu - B.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
