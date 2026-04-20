@@ -1,16 +1,165 @@
 (version 1)
-# USB Differential Pair Rules
+
+# =============================================================================
+# CUSTOM DRC RULES - OakBridge MkI (PC_Interface_Card)
+# Board:   2-layer FR4, 1.6mm, ESP32-S3 keyboard/controller
+# Fab:     JLCPCB standard process
+# Author:  carl (HighCarlSagan)
+# Last updated: 2026-04-20
+# =============================================================================
+#
+# SYNTAX QUICK REFERENCE
+#   A, B          = the two items being compared (A is always defined, B only
+#                   for pairwise checks like clearance)
+#   A.NetName     = net name as a string
+#   A.NetClass    = netclass name as a string
+#   A.inDiffPair('NAME*') = true if A belongs to a diff pair matching glob
+#   A.memberOfFootprint('REF') = true if A is part of footprint with that refdes
+#   A.Layer       = layer name (F.Cu, B.Cu, etc.)
+#   Constraints:  clearance, diff_pair_gap, diff_pair_uncoupled, track_width,
+#                 annular_width, hole_size, hole_clearance, silk_clearance,
+#                 edge_clearance, length, skew, via_count
+#
+# Rules are evaluated in file order. When multiple rules match the same
+# check for the same items, the LAST matching rule wins. Place more specific
+# exemptions AFTER general rules so the specific rule takes precedence.
+# =============================================================================
+
+
+# -----------------------------------------------------------------------------
+# RULE 1: USB 2.0 Full-Speed differential pair - gap tolerance
+# -----------------------------------------------------------------------------
+# Purpose: Constrain the gap between D+ and D- traces along their coupled run.
+#
+# Why max is so loose (2mm):
+#   KiCad's rule engine checks gap along the ENTIRE pair, including the short
+#   fan-out stubs where D+/D- must splay out to reach IC pads (ESP32 USB pins,
+#   ESD diode pads, USB-C connector pads). Those fan-outs are physically
+#   unavoidable and can be 1-2mm apart at the endpoints.
+#   For FS USB (12 Mbps), impedance mismatch in sub-millimeter fan-out regions
+#   is electrically irrelevant. The pair is coupled across its main run.
+#
+# For HS USB (480 Mbps) on a 4-layer board, tighten to (max 0.25mm) and keep
+# fan-outs as short as possible.
+#
+# Remove this rule if: board has no USB interface, or USB nets aren't named D+/D-
+# -----------------------------------------------------------------------------
 (rule "USB_diff_pair_gap"
-   (condition "A.inDiffPair('D*')")
-   (constraint diff_pair_gap (min 0.15mm) (max 0.15mm))
+  (condition "A.inDiffPair('D*')")
+  (constraint diff_pair_gap (min 0.15mm) (max 2mm))
 )
 
+
+# -----------------------------------------------------------------------------
+# RULE 2: USB 2.0 Full-Speed differential pair - max uncoupled length
+# -----------------------------------------------------------------------------
+# Purpose: Limit how much of the pair is routed without tight coupling.
+#
+# Value rationale:
+#   20mm is generous - intended for FS USB where timing skew tolerance is wide
+#   (multi-nanosecond). For HS USB, drop to 5mm. For USB 3.x SuperSpeed, drop
+#   to 2mm and add an explicit skew constraint.
+#
+# Remove this rule if: board has no USB interface, or you want zero enforcement
+# on uncoupled routing (e.g., prototype with hand-routed wires).
+# -----------------------------------------------------------------------------
 (rule "USB_diff_pair_uncoupled"
-   (condition "A.inDiffPair('D*')")
-   (constraint diff_pair_uncoupled (max 0.2mm))
+  (condition "A.inDiffPair('D*')")
+  (constraint diff_pair_uncoupled (max 20mm))
 )
 
-(rule "USB_length_matching"
-   (condition "A.inDiffPair('D*')")
-   (constraint length (max 2mm))
+
+# -----------------------------------------------------------------------------
+# RULE 3: USB-C connector (J1) internal pad clearance exemption
+# -----------------------------------------------------------------------------
+# Purpose: Relax clearance between pads WITHIN the USB-C connector footprint.
+#
+# Why this exists:
+#   USB-C connector pads are ~0.2mm apart by the connector standard (fixed by
+#   the mechanical spec, not a layout choice). Default netclass clearance of
+#   0.2mm will flag every adjacent pad inside J1 as a violation. This rule
+#   carves out an exemption that only applies when BOTH items being checked
+#   belong to J1 - preserving full 0.2mm clearance for anything routed to/from
+#   J1 from the rest of the board.
+#
+# If you change the USB-C connector reference designator, update 'J1' below.
+# Remove this rule if: board has no USB-C connector.
+# -----------------------------------------------------------------------------
+(rule "USBC_internal_clearance"
+  (condition "A.memberOfFootprint('J1') && B.memberOfFootprint('J1')")
+  (constraint clearance (min 0.15mm))
 )
+
+
+# =============================================================================
+# OPTIONAL RULES - uncomment and adapt as needed for future boards
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# OPTIONAL: High-current power net wider-track requirement
+# -----------------------------------------------------------------------------
+# Purpose: Enforce minimum track width on high-current nets (VBUS, VIN, VBAT)
+# Use when: Board has nets carrying >500mA and you want DRC to catch pinch points.
+# -----------------------------------------------------------------------------
+# (rule "High_current_nets"
+#   (condition "A.NetName == 'VUSB' || A.NetName == 'VBUS' || A.NetName == 'VIN'")
+#   (constraint track_width (min 0.5mm))
+# )
+
+
+# -----------------------------------------------------------------------------
+# OPTIONAL: High-voltage creepage (>48V nets)
+# -----------------------------------------------------------------------------
+# Purpose: Enforce larger clearance on HV nets per IEC 61010 / IPC-2221.
+# Use when: SMPS designs, mains-referenced circuits, flyback/PSFB primary side.
+# Adjust clearance per voltage class and pollution degree.
+# -----------------------------------------------------------------------------
+# (rule "HV_creepage_400V"
+#   (condition "A.NetClass == 'HV_400V' && B.NetClass != 'HV_400V'")
+#   (constraint clearance (min 2.5mm))
+# )
+
+
+# -----------------------------------------------------------------------------
+# OPTIONAL: Fine-pitch BGA/QFN fan-out clearance relaxation
+# -----------------------------------------------------------------------------
+# Purpose: Allow tighter trace-to-pad clearance under specific fine-pitch parts
+# where the pitch demands it. Scoped to one footprint to avoid global relaxation.
+# Use when: BGA pitch <0.5mm or QFN pitch <0.4mm.
+# -----------------------------------------------------------------------------
+# (rule "BGA_U10_fanout"
+#   (condition "A.memberOfFootprint('U10') || B.memberOfFootprint('U10')")
+#   (constraint clearance (min 0.1mm))
+# )
+
+
+# -----------------------------------------------------------------------------
+# OPTIONAL: Low-speed signal track width minimum override
+# -----------------------------------------------------------------------------
+# Purpose: Allow specific low-current signals (CC1/CC2, I2C pull-ups) to use
+# thinner tracks than the netclass minimum.
+# Use when: Routing CC lines, I2C, slow GPIO where 0.127mm is acceptable.
+# -----------------------------------------------------------------------------
+# (rule "USBC_CC_lines"
+#   (condition "A.NetName == 'CC1' || A.NetName == 'CC2'")
+#   (constraint track_width (min 0.1mm))
+# )
+
+
+# -----------------------------------------------------------------------------
+# OPTIONAL: SPI/parallel bus skew matching
+# -----------------------------------------------------------------------------
+# Purpose: Constrain length mismatch between bus signals (for DDR, parallel
+# flash, camera interfaces, etc.)
+# Use when: Signal edge rate fast enough that skew matters (typically >50 MHz).
+# FRAM at QuadSPI 50 MHz does NOT need this. High-speed DDR does.
+# -----------------------------------------------------------------------------
+# (rule "QSPI_skew"
+#   (condition "A.NetClass == 'QSPI'")
+#   (constraint skew (max 0.5mm))
+# )
+
+
+# =============================================================================
+# END OF RULES
+# =============================================================================

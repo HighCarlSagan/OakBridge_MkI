@@ -1,0 +1,582 @@
+** Drc report for PC_Interface_Card.kicad_pcb **
+** Created on 2026-04-20T09:27:41 **
+** Report includes: Errors, Warnings **
+
+** Found 184 DRC violations **
+[diff_pair_gap_out_of_range]: Differential pair gap out of range (USB_diff_pair_gap maximum gap 0.2500 mm; actual 1.0200 mm)
+    Rule: USB_diff_pair_gap; error
+    @(167.3490 mm, 79.7050 mm): Track [D+] on F.Cu, length 1.1250 mm
+    @(167.3490 mm, 78.4350 mm): Track [D-] on F.Cu, length 1.1250 mm
+[diff_pair_gap_out_of_range]: Differential pair gap out of range (USB_diff_pair_gap maximum gap 0.2500 mm; actual 1.6500 mm)
+    Rule: USB_diff_pair_gap; error
+    @(188.5590 mm, 67.7537 mm): Track [D+] on F.Cu, length 0.9938 mm
+    @(190.4590 mm, 67.7537 mm): Track [D-] on F.Cu, length 0.9938 mm
+[diff_pair_uncoupled_length_too_long]: Differential uncoupled length too long (USB_diff_pair_uncoupled maximum uncoupled length 15.0000 mm; actual 16.5381 mm)
+    Rule: USB_diff_pair_uncoupled; error
+    @(188.5590 mm, 71.3850 mm): Track [D+] on F.Cu, length 0.3625 mm
+    @(193.3515 mm, 73.3143 mm): Track [D-] on F.Cu, length 0.8625 mm
+[diff_pair_gap_out_of_range]: Differential pair gap out of range (USB_diff_pair_gap maximum gap 0.2500 mm; actual 1.0200 mm)
+    Rule: USB_diff_pair_gap; error
+    @(167.3490 mm, 79.7050 mm): Track [D+] on F.Cu, length 1.1250 mm
+    @(167.3490 mm, 78.4350 mm): Track [D-] on F.Cu, length 1.1250 mm
+[diff_pair_gap_out_of_range]: Differential pair gap out of range (USB_diff_pair_gap maximum gap 0.2500 mm; actual 1.6500 mm)
+    Rule: USB_diff_pair_gap; error
+    @(188.5590 mm, 67.7537 mm): Track [D+] on F.Cu, length 0.9938 mm
+    @(190.4590 mm, 67.7537 mm): Track [D-] on F.Cu, length 0.9938 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1846 mm)
+    Rule: netclass 'Default'; error
+    @(189.5090 mm, 71.0225 mm): Pad 2 [GND] of U1 on F.Cu
+    @(189.7356 mm, 72.1084 mm): Track [D-] on F.Cu, length 1.0230 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1582 mm)
+    Rule: netclass 'Default'; error
+    @(118.6398 mm, 78.3398 mm): Track [D1_SDMMC] on B.Cu, length 14.7704 mm
+    @(120.4800 mm, 77.7800 mm): Via [D0_SDMMC] on F.Cu - B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1846 mm)
+    Rule: netclass 'Default'; error
+    @(189.5090 mm, 71.0225 mm): Pad 2 [GND] of U1 on F.Cu
+    @(189.2824 mm, 72.1084 mm): Track [D+] on F.Cu, length 1.0230 mm
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(125.4700 mm, 79.2800 mm): Reference field of C1
+    @(125.4300 mm, 80.9600 mm): Reference field of C2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(115.5990 mm, 92.8050 mm): Reference field of J4
+    @(115.5990 mm, 92.8050 mm): Pad 6 [CS_DISP] of J4 on F.Cu
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1000 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(161.6400 mm, 123.0900 mm): PCB text 'https://github.com/HighCarlSagan/OakBridge_MkI' on F.Silkscreen
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(134.0140 mm, 76.6275 mm): Reference field of J2
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(197.0290 mm, 85.4650 mm): Reference field of FL1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(167.4590 mm, 83.8400 mm): Reference field of R26
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(187.4220 mm, 111.6800 mm): Reference field of R11
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(115.5990 mm, 92.8050 mm): Reference field of J4
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(124.9290 mm, 109.6850 mm): Reference field of LED5
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(132.0321 mm, 109.4400 mm): Footprint text of LED5 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(132.0321 mm, 109.4400 mm): Footprint text of LED5 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(123.5840 mm, 96.5850 mm): Reference field of C8
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(125.4700 mm, 79.2800 mm): Reference field of C1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(156.6590 mm, 96.7550 mm): Reference field of C5
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(187.5890 mm, 84.8350 mm): Reference field of R32
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(173.1210 mm, 104.7272 mm): Reference field of R22
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(198.7890 mm, 92.5350 mm): Reference field of C3
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(189.5290 mm, 88.0250 mm): Reference field of CR1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(133.8890 mm, 84.7050 mm): Reference field of R10
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(187.3970 mm, 113.3400 mm): Reference field of R15
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(165.5990 mm, 79.8550 mm): Reference field of U4
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(164.0900 mm, 61.5400 mm): Reference field of C16
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(198.6990 mm, 91.0450 mm): Reference field of C4
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(124.4990 mm, 112.5150 mm): Reference field of R25
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(141.4290 mm, 109.6750 mm): Reference field of LED3
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(148.3421 mm, 109.6600 mm): Footprint text of LED3 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(148.3421 mm, 109.6600 mm): Footprint text of LED3 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(187.6170 mm, 102.8900 mm): Reference field of C11
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(128.9900 mm, 82.4350 mm): Reference field of R4
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(123.2140 mm, 95.0350 mm): Reference field of R13
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(187.4320 mm, 115.0100 mm): Reference field of C10
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(193.7790 mm, 65.7750 mm): Reference field of H6
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(187.1090 mm, 69.8850 mm): Reference field of U1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(163.8972 mm, 80.6850 mm): Reference field of U3
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(140.7590 mm, 129.1250 mm): Reference field of R23
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(151.5662 mm, 65.0050 mm): Reference field of SW7
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(140.7890 mm, 127.1850 mm): Reference field of SW4
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(190.5290 mm, 82.0950 mm): Reference field of F1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(138.2990 mm, 96.4650 mm): Reference field of R19
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(112.1605 mm, 125.7100 mm): Reference field of H2
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(140.6040 mm, 98.8500 mm): Reference field of SW5
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(172.5290 mm, 109.1650 mm): Reference field of R24
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(126.9100 mm, 82.5200 mm): Reference field of R5
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(144.4662 mm, 63.5950 mm): Reference field of C17
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8890 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(144.4662 mm, 63.5950 mm): Reference field of C17
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(141.4862 mm, 64.8950 mm): Reference field of SW8
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(147.5762 mm, 63.6250 mm): Reference field of R27
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8890 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(147.5762 mm, 63.6250 mm): Reference field of R27
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(131.0000 mm, 82.4250 mm): Reference field of R3
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(136.2790 mm, 92.4250 mm): Reference field of R18
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(187.4470 mm, 104.4700 mm): Reference field of R16
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(191.5815 mm, 67.3342 mm): Reference field of J1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(189.8820 mm, 109.1400 mm): Reference field of C7
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(196.0057 mm, 125.8383 mm): Reference field of H7
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(125.4300 mm, 80.9600 mm): Reference field of C2
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(134.1990 mm, 112.6650 mm): Reference field of R20
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(174.7490 mm, 113.6950 mm): Reference field of C14
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(115.6590 mm, 65.3515 mm): Reference field of H1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(136.9190 mm, 82.0550 mm): Reference field of C6
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(141.5490 mm, 94.4050 mm): Reference field of LED2
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(148.5021 mm, 93.2400 mm): Footprint text of LED2 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(148.5021 mm, 93.2400 mm): Footprint text of LED2 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(147.6290 mm, 128.8650 mm): Reference field of LED4
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(148.2874 mm, 125.9700 mm): Footprint text of LED4 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(148.2874 mm, 125.9700 mm): Footprint text of LED4 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(171.9090 mm, 83.8500 mm): Reference field of R31
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(147.3290 mm, 96.4550 mm): Reference field of C12
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(124.0090 mm, 98.6650 mm): Reference field of SW3
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(157.7590 mm, 109.4250 mm): Reference field of LED1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(164.6861 mm, 109.4300 mm): Footprint text of LED1 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(164.6861 mm, 109.4300 mm): Footprint text of LED1 (*)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(161.4900 mm, 62.9600 mm): Reference field of R30
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(140.6390 mm, 82.4050 mm): Reference field of SW2
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(158.0062 mm, 63.3550 mm): Reference field of C19
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8890 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(158.0062 mm, 63.3550 mm): Reference field of C19
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(134.8490 mm, 122.2750 mm): Reference field of R14
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(156.6990 mm, 95.0750 mm): Reference field of R9
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(158.6790 mm, 112.6650 mm): Reference field of R17
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(136.4590 mm, 121.7550 mm): Reference field of C9
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(167.4840 mm, 98.6900 mm): Reference field of SW1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(154.7762 mm, 63.5250 mm): Reference field of R29
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8890 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(154.7762 mm, 63.5250 mm): Reference field of R29
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(118.6100 mm, 82.5900 mm): Reference field of R2
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(189.2840 mm, 99.1350 mm): Reference field of U2
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(123.2800 mm, 84.0700 mm): Reference field of R34
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(120.4600 mm, 82.5450 mm): Reference field of R1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(198.5420 mm, 101.6800 mm): Reference field of MT1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(165.3590 mm, 66.6550 mm): Reference field of C18
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(118.3900 mm, 88.0000 mm): Reference field of R35
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(169.6600 mm, 86.2500 mm): Reference field of R12
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(166.2750 mm, 90.3400 mm): Reference field of R28
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(188.4590 mm, 74.8350 mm): Reference field of R6
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(118.2900 mm, 96.7300 mm): Reference field of R8
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(154.5200 mm, 86.3700 mm): Reference field of R33
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(159.1100 mm, 86.2300 mm): Reference field of R21
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(157.5400 mm, 88.9100 mm): Reference field of C13
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(157.3800 mm, 90.4700 mm): Reference field of C15
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.1524 mm; actual 0.1500 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(188.3890 mm, 71.8050 mm): Reference field of R7
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Footprint_Project_PC_Interface'
+    Local override; warning
+    @(125.7540 mm, 75.7450 mm): Footprint J2
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Footprint'
+    Local override; warning
+    @(195.5590 mm, 85.5950 mm): Footprint FL1
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(168.8890 mm, 83.8400 mm): Footprint R26
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(190.5520 mm, 111.6500 mm): Footprint R11
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Footprint_Project_PC_Interface'
+    Local override; warning
+    @(113.2199 mm, 92.8050 mm): Footprint J4
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Footprint'
+    Local override; warning
+    @(129.5937 mm, 109.4400 mm): Footprint LED5
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(126.2640 mm, 96.5750 mm): Footprint C8
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(123.3000 mm, 79.3000 mm): Footprint C1
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(159.1290 mm, 96.6950 mm): Footprint C5
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(183.1290 mm, 83.5200 mm): Footprint R32
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(174.6210 mm, 104.8472 mm): Footprint R22
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(196.1440 mm, 92.5650 mm): Footprint C3
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Footprint_Project_PC_Interface'
+    Local override; warning
+    @(192.3990 mm, 88.0264 mm): Footprint CR1
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(135.3190 mm, 84.7050 mm): Footprint R10
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Footprint'
+    Local override; warning
+    @(177.8590 mm, 105.0150 mm): Footprint SW6
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(190.5370 mm, 113.3200 mm): Footprint R15
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(163.8090 mm, 63.7200 mm): Footprint C16
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(196.1440 mm, 91.0250 mm): Footprint C4
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(127.3890 mm, 112.5850 mm): Footprint R25
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Footprint'
+    Local override; warning
+    @(145.9037 mm, 109.6600 mm): Footprint LED3
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(190.5870 mm, 102.8800 mm): Footprint C11
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(128.9600 mm, 80.0300 mm): Footprint R4
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(126.2640 mm, 95.0350 mm): Footprint R13
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(190.5270 mm, 115.0100 mm): Footprint C10
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Footprint'
+    Local override; warning
+    @(162.5228 mm, 84.8600 mm): Footprint U3
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(143.6490 mm, 129.1650 mm): Footprint R23
+[lib_footprint_issues]: The current configuration does not include the footprint library 'CherryMX_PCB'
+    Local override; warning
+    @(145.8990 mm, 121.1100 mm): Footprint SW4
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Footprint'
+    Local override; warning
+    @(194.0290 mm, 82.3250 mm): Footprint F1
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(141.2590 mm, 96.4750 mm): Footprint R19
+[lib_footprint_issues]: The current configuration does not include the footprint library 'CherryMX_PCB'
+    Local override; warning
+    @(145.8940 mm, 104.5900 mm): Footprint SW5
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(173.9410 mm, 107.5972 mm): Footprint R24
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(126.9100 mm, 80.0450 mm): Footprint R5
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(144.4612 mm, 64.7750 mm): Footprint C17
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(147.5962 mm, 64.7950 mm): Footprint R27
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(131.0200 mm, 80.0100 mm): Footprint R3
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(137.7390 mm, 92.4250 mm): Footprint R18
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(190.5970 mm, 104.4800 mm): Footprint R16
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Footprint'
+    Local override; warning
+    @(197.0315 mm, 73.5643 mm): Footprint J1
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(191.3120 mm, 109.1400 mm): Footprint C7
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(123.3000 mm, 81.0200 mm): Footprint C2
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(137.1790 mm, 112.6350 mm): Footprint R20
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(174.7540 mm, 110.7350 mm): Footprint C14
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(136.9490 mm, 84.7050 mm): Footprint C6
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Footprint'
+    Local override; warning
+    @(146.0637 mm, 93.2400 mm): Footprint LED2
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Footprint'
+    Local override; warning
+    @(145.8490 mm, 125.9700 mm): Footprint LED4
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(170.4190 mm, 83.8500 mm): Footprint R31
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(144.3190 mm, 96.4850 mm): Footprint C12
+[lib_footprint_issues]: The current configuration does not include the footprint library 'CherryMX_PCB'
+    Local override; warning
+    @(129.3640 mm, 104.5700 mm): Footprint SW3
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Footprint'
+    Local override; warning
+    @(162.2477 mm, 109.4300 mm): Footprint LED1
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(161.5400 mm, 64.4300 mm): Footprint R30
+[lib_footprint_issues]: The current configuration does not include the footprint library 'CherryMX_PCB'
+    Local override; warning
+    @(145.8940 mm, 88.3300 mm): Footprint SW2
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(157.9812 mm, 64.6550 mm): Footprint C19
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(134.8790 mm, 119.2750 mm): Footprint R14
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(159.1290 mm, 95.0950 mm): Footprint R9
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(161.6690 mm, 112.6450 mm): Footprint R17
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(136.4690 mm, 119.2750 mm): Footprint C9
+[lib_footprint_issues]: The current configuration does not include the footprint library 'CherryMX_PCB'
+    Local override; warning
+    @(162.1540 mm, 104.5900 mm): Footprint SW1
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(154.8362 mm, 64.6450 mm): Footprint R29
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(118.6300 mm, 80.1400 mm): Footprint R2
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Footprint'
+    Local override; warning
+    @(192.4690 mm, 96.4950 mm): Footprint U2
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(123.2800 mm, 82.6400 mm): Footprint R34
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(120.4600 mm, 80.1450 mm): Footprint R1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Footprint'
+    Local override; warning
+    @(195.7290 mm, 109.1450 mm): Footprint MT1
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(165.4090 mm, 63.7200 mm): Footprint C18
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(118.3900 mm, 86.5700 mm): Footprint R35
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(167.4000 mm, 85.3600 mm): Footprint R12
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(166.2750 mm, 88.9100 mm): Footprint R28
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(190.8790 mm, 74.8150 mm): Footprint R6
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(118.2900 mm, 95.3000 mm): Footprint R8
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(156.0000 mm, 86.3800 mm): Footprint R33
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(157.5900 mm, 86.3800 mm): Footprint R21
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(160.4322 mm, 88.8750 mm): Footprint C13
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(160.4322 mm, 90.4550 mm): Footprint C15
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(190.8690 mm, 71.8350 mm): Footprint R7
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(134.9000 mm, 129.1650 mm): Via [3V3] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(131.7000 mm, 82.4000 mm): Via [3V3] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(171.9900 mm, 82.7700 mm): Via [GND] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(192.5100 mm, 80.3400 mm): Via [VUSB] on F.Cu - B.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - PTH inside courtyard
+    - NPTH inside courtyard
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
