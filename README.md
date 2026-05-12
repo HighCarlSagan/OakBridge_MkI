@@ -384,4 +384,5 @@ You're free to use, modify, fabricate, and distribute the hardware design with a
 
 ## Author
 
-**Mak (Mayank Shrivastava)** — [GitHub @HighCarlSagan](https://github.com/HighCarlSagan) · [highcarlsagan.dev](https://highcarlsagan.dev)
+**Mayank S (HighCarlSagan)** — [GitHub @HighCarlSagan](https://github.com/HighCarlSagan) · [highcarlsagan.dev](https://highcarlsagan.dev)
+
